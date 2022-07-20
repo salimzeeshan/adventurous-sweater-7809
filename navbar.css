@@ -1,0 +1,32 @@
+#navbar{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    display: flex;
+    position: sticky;
+    width: 93%;
+    margin: auto;
+}
+
+#navbar img{
+    height: 100%;
+    width: 105px;
+}
+
+#navbar>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+#logo{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    width: max-content;
+}
+
+
