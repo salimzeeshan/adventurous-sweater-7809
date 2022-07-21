@@ -1,0 +1,88 @@
+#left {
+    width: 20%;
+    height: 1400px;
+    position: relative;
+    top: 70px;
+    /* z-index: -1; */
+    padding: 0px 0px 0px 45px;
+}
+
+#center {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 10px;
+    position: relative;
+    top: 70px;
+    z-index: -1;
+}
+
+#right {
+    width: 20%;
+    position: relative;
+    top: 70px;
+}
+
+#content{
+    display: flex;
+}
+
+#center>div>img{
+    width: 100%;
+}
+
+#center>div p{
+    font-size: 11px;
+    margin-bottom: -7px;
+}
+
+#center>div{
+    padding: 0px 10px 10px 10px;
+}
+
+#navbar>a:nth-child(1)>p{
+    text-decoration: underline;
+}
+
+#right p {
+    font-size: 11px;
+    padding-left: 120px;
+}
+
+#sortByPrice>p:not(p:nth-child(1)):hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#sortByPrice>p:not(p:nth-child(1)){
+    margin-bottom: -5px;
+}
+
+#sortByColour>p:not(p:nth-child(1)):hover, #left p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#sortByColour>p:not(p:nth-child(1)) {
+    margin-bottom: -5px;
+}
+
+#sortByColour>p:first-child{
+    margin-top: 30px;
+}
+
+#sortByPrice>p:first-child {
+    margin-top: 0px;
+}
+
+#left>p:not(p:nth-child(1)){
+    margin-bottom: -5px;
+}
+
+#left>p{
+    font-size: 11px;
+}
+
+#left>p:first-child{
+    margin-top: 0px;
+}
