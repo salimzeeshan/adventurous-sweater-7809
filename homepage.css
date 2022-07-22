@@ -1,0 +1,139 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#content{
+    position: relative;
+    top: 70px;
+}
+
+#content img{
+    width: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#type1>#left{
+    width: 40%;
+}
+#type1>#right{
+    width: 40%;
+}
+
+#type1, #type2{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    margin-bottom: 40px;
+}
+
+#left>p:nth-child(2), 
+#left>p:nth-child(3),
+#center>p:nth-child(2),
+#center>p:nth-child(3),
+#right>p:nth-child(2),
+#right>p:nth-child(3){
+    display: inline;
+}
+
+#left>p:nth-child(2),
+#right>p:nth-child(2),
+#center>p:nth-child(2) {
+    font-weight: 200;
+    margin-right: 20px;
+}
+
+#left>p:nth-child(3),
+#right>p:nth-child(3),
+#center>p:nth-child(3) {
+    font-weight: 300;
+}
+
+#left>p:nth-child(4),
+#right>p:nth-child(4),
+#center>p:nth-child(4) {
+    font-family: "Times New Roman",
+        Times,
+        serif;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#type2>div{
+    width: 30%;
+}
+
+#type1 button{
+    display: block;
+    margin-top: 20px;
+    border: 0.5px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#type4{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+#type4 img{
+    width: 79px;
+    margin: 0px;
+}
+
+hr{
+    width: 100%;
+}
+
+#cards_left{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+#cards_right{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_content{
+    display: flex;
+}
+
+#type4 p{
+    font-size: 11px;
+    margin: 0px;
+}
+
+#type4 h1{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#cards_right p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+#cards_right>p+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#content img:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
