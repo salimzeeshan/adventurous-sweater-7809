@@ -2,3 +2,15 @@ body{
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+@media all and (max-width: 1200px){
+    #center{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width: 1000px) {
+    #center {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,3 +1,110 @@
+#left {
+    width: 15%;
+    height: 1400px;
+    position: relative;
+    top: 70px;
+    padding: 0px 0px 0px 45px;
+}
+
+#center {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 10px;
+    position: relative;
+    top: 70px;
+    z-index: -1;
+    height: fit-content;
+}
+
+#right {
+    width: 15%;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 45px;
+}
+
+#content {
+    display: flex;
+}
+
+#center>div>img {
+    width: 100%;
+}
+
+#center>div p {
+    font-size: 11px;
+    margin-bottom: -7px;
+}
+
+#center>div {
+    padding: 0px 10px 10px 10px;
+}
+
 #navbar>a:nth-child(3)>p {
     text-decoration: underline;
 }
+
+#right p {
+    font-size: 11px;
+}
+
+#sortByPrice>p:not(p:nth-child(1)):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#sortByPrice>p:not(p:nth-child(1)) {
+    margin-bottom: -5px;
+}
+
+#sortByColour>p:not(p:nth-child(1)):hover,
+#left p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#sortByColour>p:not(p:nth-child(1)) {
+    margin-bottom: -5px;
+}
+
+#sortByColour>p:first-child {
+    margin-top: 30px;
+}
+
+#sortByPrice>p:first-child {
+    margin-top: 0px;
+}
+
+#sortByPrice {
+    width: 87px
+}
+
+#sortByColour {
+    width: 87px;
+}
+
+#left>p:not(p:nth-child(1)) {
+    margin-bottom: -5px;
+}
+
+#left>p {
+    font-size: 11px;
+}
+
+#left>p:first-child {
+    margin-top: 0px;
+}
+
+.price_before{
+    display: inline-block;
+}
+
+.sale_price{
+    display: inline-block;
+    margin-left: 5px;
+}
+
