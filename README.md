@@ -15,10 +15,8 @@ Clone the project
 ```bash
   git clone https://github.com/shivamsherje/delightful-animal-1301.git
 ```
-​
-Go to the project directory
-​
-run index.html
+- Go to the project directory
+- run index.html
 ​
 ​
 ## Tech Stack
