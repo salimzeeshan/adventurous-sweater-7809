@@ -13,7 +13,7 @@ SENSE is a multi-brand retailer based in Montreal, Canada specialising in the sa
 Clone the project
 ​
 ```bash
-  git clone https://github.com/shivamsherje/delightful-animal-1301.git
+  git clone https://github.com/salimzeeshan/ssense.git
 ```
 - Go to the project directory
 - run index.html
