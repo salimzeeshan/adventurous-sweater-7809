@@ -1,4 +1,4 @@
-# Clone of [SSENSE](https://www.ssense.com/en-in))
+# Clone of [SSENSE](https://www.ssense.com/en-in)
 ​
 SENSE is a multi-brand retailer based in Montreal, Canada specialising in the sale of designer fashion and high end streetwear.
 ​
